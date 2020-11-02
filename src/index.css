@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+html{
+  background-image: radial-gradient( circle 534px at 7.8% 17.6%,  rgba(254,253,112,1) 1.7%, rgba(248,143,111,1) 91.8% );
+  background-attachment: fixed;
+}
+.nav-style{
+  background-color: transparent;
+}
+
+.nav-title{
+    font-family: 'Gloria Hallelujah','Arial', cursive;
+}
+.add-category-container{
+    margin: 10px;
+}
+.img-thumbnail{
+    width: 128px;
+}
+.img-thumbnail-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* loading images animation */
+.spinner {
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: #841902;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
