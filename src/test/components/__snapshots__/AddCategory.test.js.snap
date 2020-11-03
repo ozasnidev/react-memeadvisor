@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCategory component test should to show GifList component without issues 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="panel-block"
+  >
+    <p
+      className="control"
+    >
+      <input
+        className="input is-success"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+    </p>
+  </div>
+</form>
+`;
