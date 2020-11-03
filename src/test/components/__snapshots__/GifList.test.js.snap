@@ -21,3 +21,29 @@ exports[`GifList component test should to show GifList component without issues 
   />
 </div>
 `;
+
+exports[`GifList component test should to show images using useFetchGif hook 1`] = `
+<div>
+  <div
+    className="panel-block"
+  >
+    <h4
+      className="title is-4 animate__animated animate__fadeInDown"
+    >
+       
+      goku
+       
+    </h4>
+  </div>
+  <div
+    className="img-thumbnail-container"
+  >
+    <img
+      alt="something"
+      className="img-thumbnail  animate__animated animate__fadeInUp"
+      key="1234"
+      src="https://localhost/something.com"
+    />
+  </div>
+</div>
+`;
