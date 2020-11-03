@@ -13,7 +13,7 @@ describe('AddCategory component test', () => {
         wrapper = shallow(<AddCategory setCategories={ setCategories } /> );
     });
 
-    test('should to show GifList component without issues', () => {
+    test('should to show AddCategory component without issues', () => {
         expect(wrapper).toMatchSnapshot();
     });
 

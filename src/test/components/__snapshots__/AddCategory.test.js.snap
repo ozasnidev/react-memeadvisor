@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AddCategory component test should to show GifList component without issues 1`] = `
+exports[`AddCategory component test should to show AddCategory component without issues 1`] = `
 <form
   onSubmit={[Function]}
 >
