@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifList component test should to show GifList component without issues 1`] = `
+<div>
+  <div
+    className="panel-block"
+  >
+    <h4
+      className="title is-4 animate__animated animate__fadeInDown"
+    >
+       
+      goku
+       
+    </h4>
+    <div
+      className="spinner"
+    />
+  </div>
+  <div
+    className="img-thumbnail-container"
+  />
+</div>
+`;
