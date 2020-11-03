@@ -30,6 +30,7 @@ describe('GifList component test', () => {
         useFetchGif.mockReturnValue({ data: gifs, loading: false});
         const wrapper = shallow(<GifList category={categoryTest}/>);
         expect(wrapper).toMatchSnapshot();
+        expect(wrapper.find('div').at(2).hasClass('spinner')).toBeFalsy();
     })
     
 });
