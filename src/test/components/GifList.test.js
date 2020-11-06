@@ -31,6 +31,6 @@ describe('GifList component test', () => {
         const wrapper = shallow(<GifList category={categoryTest}/>);
         expect(wrapper).toMatchSnapshot();
         expect(wrapper.find('div').at(2).hasClass('spinner')).toBeFalsy();
-    })
+    });
     
 });

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifMemeApo Component test should show the component without issues 1`] = `
+<Fragment>
+  <NavbarMeme />
+  <div
+    className="container"
+  >
+    <div
+      className="add-category-container"
+    >
+      <article
+        className="panel is-success"
+      >
+        <p
+          className="nav-title panel-heading"
+        >
+          Categories
+        </p>
+        <AddCategory
+          setCategories={[Function]}
+        />
+      </article>
+    </div>
+  </div>
+</Fragment>
+`;
