@@ -4,8 +4,8 @@ import { AddCategory } from './AddCategory';
 import { GifList } from './GifList';
 
 
-const GifMemeApp = () => { 
-    const [categories, setCategories] = useState([]);
+const GifMemeApp = ({ defaultCategories = []}) => { 
+    const [categories, setCategories] = useState(defaultCategories);
 
     return (
         <>
